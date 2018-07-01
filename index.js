@@ -1,0 +1,30 @@
+'use strict'
+// Hopefully prevents spam
+const email = [
+  'm',
+  'a',
+  'c',
+  '@',
+  'm',
+  'a',
+  'c',
+  'k',
+  'e',
+  'n',
+  'z',
+  'i',
+  'e',
+  'n',
+  'a',
+  's',
+  'o',
+  'n',
+  '.',
+  'd',
+  'e',
+  's',
+  'i',
+  'g',
+  'n',
+]
+;[...document.querySelectorAll('.mailto')].forEach(x => x.href = `mailto:${email.join('')}`)

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Mackenzie Nason Portfolio</title>
+    <link rel="icon" type="image/svg" sizes="any" href="logo.svg"/>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <header class="site-header">
+          <a href="/"><img src="logo.svg" alt="Mackenzie Nason's logo"></a>
+          <nav class="site-navigation">
+            <ul class="nav-links">
+              <li><a class="nav-link" href="#work">Work</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="mailto nav-link is-call-to-action">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <section id="intro" class="section section-intro">
+            <div class="section-image">
+              <picture>
+                <source srcset="images/me@2x.jpg" media="(min-width: 400px)">
+                <source srcset="images/me@3x.jpg" media="(min-width: 1000px)">
+                <img class="image hero-image" src="images/me.jpg" alt="Mackenzie Nason">
+              </picture>
+            </div>
+            <div class="section-content">
+              <h1 class="title">Hi, I’m Mackenzie Nason</h1>
+              <p class="hero-text">
+                I'm a UI/UX Designer who loves to create digital solutions and values design systems, user research and intuitive user experiences. <a href="#about">More about me</a>
+              </p>
+              <p class="links show-for-desktop">
+                <a href="#work">See my work</a><span class="sr-only">, </span>
+                <a class="get-in-touch-link mailto">Get in touch</a><span class="sr-only"> or </span>
+                <a class="has-icon" href="#"><img class="icon" src="icons/square-download.svg" aria-hidden="true"> Download my resume</a>
+              </p>
+            </div>
+          </section>
+          <section class="section section-work">
+            <header class="section-header">
+              <div class="split">
+                <h2 id="work" class="heading">Work examples</h2>
+                <a class="heading-link" href="#">🏀 My Dribbble Account</a>
+              </div>
+            </header>
+            <div class="cards">
+              <article class="card">
+                <picture>
+                  <source srcset="images/launtel-tile@2x.jpg" media="(min-width: 400px)">
+                  <source srcset="images/launtel-tile@3x.jpg" media="(min-width: 1000px)">
+                  <img src="images/launtel-tile.jpg" class="image" alt="Launtel example">
+                </picture>
+                <h3 class="heading">Launtel Dashboard</h3>
+                <p>
+                  A Dashboard for a local ISP, This project involved creating a consistant system for both Desktop & Mobile web applications.
+                </p>
+                <p><small class="disclaimer">Disclaimer: This was designed & developed whilst at Round Table Studio</small></p>
+              </article>
+            </div>
+          </section>
+          <section class="section section-about">
+            <header class="section-header">
+              <h2 id="about" class="heading">About me</h2>
+            </header>
+            <p>I’m a multi-displinary Designer with a background in Branding, Illustration & Print mediums.</p>
+            <p>I love creating beautiful interfaces that are intuitive, meet business goals and exceed users expectations.</p>
+            <p>I spend my time</p>
+            <p>When I’m not working I enjoy playing sport, reading, learning and discovering new music. </p>
+            <p class="callout">
+              I’m always looking for exciting opportunities, so <a class="mailto">get in touch</a> &amp; lets create something awesome!
+            </p>
+          </section>
+        </main>
+        <footer class="site-footer">
+          <div class="social">
+            <a class="social-link" href="#" aria-label="Email me"><img class="icon" src="icons/mail-filled.svg" aria-hidden="true"></a>
+            <a class="social-link" href="#" aria-label="View my Twitter"><img class="icon" src="icons/twitter.svg" aria-hidden="true"></a>
+          </div>
+          <div class="legal">
+            <small class="copyright">Mackenzie Nason 2018 &copy;</small>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+
+</html>
