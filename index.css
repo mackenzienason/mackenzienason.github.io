@@ -21,7 +21,7 @@ a {
 
 /* Selects any <a> element when "hovered" */
 a:hover {
-  color: rich-blue;
+  color:  var(--rich-blue);
 }
 
 img {
