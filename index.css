@@ -97,7 +97,7 @@ nav a {
 
 .section-header .heading::before {
   content: '';
-  height: 32px;
+  height: 24px;
   width: 6px;
   background-color: var(--rich-blue);
   position: absolute;
@@ -129,7 +129,7 @@ nav a {
 /* Other */
 
 .copyright {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .links {
@@ -141,6 +141,7 @@ nav a {
   text-decoration: none;
   white-space: pre;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 a.has-icon .icon {
@@ -268,7 +269,7 @@ a.has-icon .icon {
     font-size: 4vw;
   }
   .callout {
-    font-size: 32px;
+    font-size: 28px;
     max-width: 648px;
     margin: 112px auto;
   }
