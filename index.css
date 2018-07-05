@@ -19,6 +19,11 @@ a {
   color: inherit;
 }
 
+/* Selects any <a> element when "hovered" */
+a:hover {
+  color: rich-blue;
+}
+
 img {
   max-width: 100%;
 }
