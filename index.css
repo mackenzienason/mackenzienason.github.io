@@ -22,6 +22,9 @@ a {
 /* Selects any <a> element when "hovered" */
 a:hover {
   color:  var(--rich-blue);
+  text-decoration: none;
+  opacity:1;
+  transition: ease 0.5s;
 }
 
 img {
