@@ -7,6 +7,25 @@
     <link rel="icon" type="image/svg" sizes="any" href="logo.svg"/>
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
+    <!-- SMOOTH SCROLL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 800);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <!-- End of SMOOTH SCROLL -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
 
@@ -119,6 +138,7 @@
         </footer>
       </div>
     </div>
+    
   </body>
 
 </html>
