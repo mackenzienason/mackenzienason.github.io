@@ -132,6 +132,8 @@ nav a {
 
 .section-about {
   font-size: 22px;
+  max-width: 648px;
+  margin: 112px auto;
 }
 
 /* Other */
