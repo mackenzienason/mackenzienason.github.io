@@ -42,6 +42,7 @@ h2 {
 
 p {
   max-width: 30em;
+  font-weight: 300;
 }
 
 nav ul {
@@ -139,7 +140,8 @@ nav a {
 /* Other */
 
 .copyright {
-  font-size: 20px;
+  font-size: 16px;
+  color: #4B4B4B;
 }
 
 .links {
@@ -203,14 +205,8 @@ a.has-icon .icon {
   margin-left: 20px;
   font-size: 14px;
   font-weight: 600;
-}
-
-.nav-link.is-call-to-action {
-  padding: 20px 12px;
-  background-color: var(--rich-blue);
-  color: white;
-  border-bottom-left-radius: var(--global-radius);
-  border-bottom-right-radius: var(--global-radius);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Cards */
@@ -257,7 +253,7 @@ a.has-icon .icon {
 
 @media (min-width: 400px) {
   .nav-link {
-    margin-left: 20px;
+    margin-left: 32px;
     font-size: 16px;
   }
   .nav-link.is-call-to-action {
@@ -281,6 +277,7 @@ a.has-icon .icon {
   }
   .callout {
     font-size: 28px;
+    font-weight: 300;
     max-width: 648px;
     margin: 112px auto;
   }
