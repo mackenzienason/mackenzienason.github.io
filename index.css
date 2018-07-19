@@ -186,7 +186,6 @@ a.has-icon .icon {
   padding-top: 24px;
   padding-bottom: 24px;
   text-align: center;
-  border-top: solid 1px var(--pale-grey);
 }
 
 .site-footer > * + * {
