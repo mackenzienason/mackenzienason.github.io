@@ -220,6 +220,7 @@ a.has-icon .icon {
 .card {
   flex: 0 0 100%;
   padding: 24px 0 0 24px;
+  padding-bottom: 56px;
 }
 
 .card .heading {
