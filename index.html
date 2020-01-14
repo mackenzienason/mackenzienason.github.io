@@ -7,6 +7,7 @@
     <link rel="icon" type="image/png" sizes="any" href="logo.png"/>
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
+
     <!-- SMOOTH SCROLL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
@@ -26,7 +27,7 @@
     });
     </script>
         <!-- End of SMOOTH SCROLL -->
-    
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122681055-1"></script>
       <script>
@@ -36,121 +37,116 @@
 
       gtag('config', 'UA-122681055-1');
     </script>
+      <!-- End of Google Analytics -->
+
     <meta name="google-site-verification" content="U86nnFHzhhmy4cwLI_KkSyGJs7d9CAh9uDyWFY7J8no" />
+
   </head>
 
   <body>
-    <div class="wrapper">
-      <div class="container">
-        <header class="site-header">
-          <a href="/"><img src="logo.svg" alt="Mackenzie Nason's logo"></a>
-          <nav class="site-navigation">
-            <ul class="nav-links">
-              <li><a class="nav-link" href="#work">Work</a></li>
-              <li><a class="nav-link" href="#about">About</a></li>
-              <li><a class="nav-link" href="mailto:mac@mackenzienason.design">Contact</a></li>
-            </ul>
-          </nav>
-        </header>
-        <main>
-          <section id="intro" class="section section-intro">
-            <div class="section-image">
-              <picture>
-                <source srcset="images/me@2x.jpg" media="(min-width: 400px)">
-                <source srcset="images/me@3x.jpg" media="(min-width: 1000px)">
-                <img class="image hero-image" src="images/me.jpg" alt="Mackenzie Nason">
-              </picture>
+      <header class="work-container">
+        <a href="index.html"><img src="logo.svg" alt="Mackenzie Nason's Logo"></a>
+      </header>
+      <main>
+
+    <!-- Intro -->
+      <section id="intro" class="fadeIn">
+        <div class="intro container">
+            <div class="intro-status">
+              <ul class="pill">
+                <li class="open">Open</li>
+              </ul>
+              <p>to opportunities</p>
             </div>
-            <div class="section-content">
-              <h1 class="title">Hello.</h1>
-              <p class="hero-text">
-                My name is Mackenzie Nason, I’m a visual and user experience designer who loves to craft meaningful products, that solve real world problems.
-              </p>
-              <p class="links show-for-desktop">
-                <a href="#work">See my work</a><span class="sr-only">, </span>
-                <a class="get-in-touch-link mailto">Get in touch</a><span class="sr-only"> or </span>
-                <a class="has-icon" href="https://github.com/mackenzienason/mackenzienason.github.io/raw/master/CV-Mackenzie%20Nason.pdf"><img class="icon" src="icons/square-download.svg" aria-hidden="true"> Download my resume</a>
-              </p>
+            <h1>Mackenzie Nason,<br> Product Designer</h1>
+            <p class="subhead">Focusing on working with startups to create digital products that delight.<p>
+            <div style="margin-top:40px">
+              <a class="about-link" href="#about">More about me</a><a class="about-link" href="CV-Mackenzie Nason.pdf" target="_blank">Download CV</a>
             </div>
-          </section>
-          <section class="section section-work">
-            <header class="section-header">
-              <div class="split">
-                <h2 id="work" class="heading">Work</h2>
-                <a class="heading-link" href="https://dribbble.com/Macnason">🏀 MY DRIBBLE</a>
+        </div>
+      </section>
+      <!-- /Intro -->
+
+      <!-- Work -->
+      <div id="work" class="fadeIn">
+        <div class="split container">
+          <h2>Work</h2>
+          <a class="about-link" href="https://dribbble.com/Macnason" target="_blank" style="color:#0f0f0f">🏀 My Dribbble</a>
+        </div>
+        <div class="work-container">
+              <div class="card"><a href="form-finder.html">
+                <article>
+                  <picture>
+                    <img src="images/ff-thumbnail.png" class="card-img" alt="Form Finder Thumbnail">
+                  </picture>
+                  <h3 class="title"><a href="form-finder.html">Form Finder</a></h3>
+                </article></a>
               </div>
-            </header>
-            <div class="cards">
-              <article class="card">
-                <picture>
-                  <source srcset="images/ame-app mockup@2x.png" media="(min-width: 400px)">
-                  <source srcset="images/ame-app mockup@3x.png" media="(min-width: 1000px)">
-                  <img src="images/ame-app mockup.png" class="image" alt="ame">
-                </picture>
-                <h3 class="heading">AME Traceability</h3>
-                <p>An automated traceability system for Australian Merino Exports. Allowing users track their wool lots, orders and shipments, and receive notifications at key stages of the journey from the farm, to the retail floor.  I was involved from the ideation of the project through to the final delivery of the web and mobile products. </p>
-                <p><small class="disclaimer">This was designed &amp; developed whilst at Round Table Studio</small></p>
-              </article>
-              
-              <article class="card">
-                <picture>
-                  <source srcset="images/launtel-tile@2x.jpg" media="(min-width: 400px)">
-                  <source srcset="images/launtel-tile@3x.jpg" media="(min-width: 1000px)">
-                  <img src="images/launtel-tile.jpg" class="image" alt="Launtel example">
-                </picture>
-                <h3 class="heading">Launtel Residential Portal</h3>
-                <p>A flexible dashboard for a Tasmanian ISP, pushing the boundaries of traditional telco’s.  This project involved analysing and improving user journeys and flows, refining IA and then constructing wireframes and visual design for web and mobile platforms.</p>
-                <p><small class="disclaimer">This was designed &amp; developed whilst at Round Table Studio</small></p>
-              </article>
-              
-            <article class="card">
-                <picture>
-                  <source srcset="images/crypto-app mockup@2x.png" media="(min-width: 400px)">
-                  <source srcset="images/crypto-app mockup@3x.png" media="(min-width: 1000px)">
-                  <img src="images/crypto-app mockup.png" class="image" alt="Crypto Tracker">
-                </picture>
-                <h3 class="heading">Crypto Wallet</h3>
-                <p>I have a strong interest in Cryptocurrency and future technologies so I designed a flexible app, as a personal project, that offers functionality that I would love to see.
-                </p>
-             </article>
-              
-             <article class="card">
-                <picture>
-                  <source srcset="images/image-collection-ui@2x.png" media="(min-width: 400px)">
-                  <source srcset="images/image-collection-ui@3x.png" media="(min-width: 1000px)">
-                  <img src="images/image-collection-ui.png" class="image" alt="Image Collection App">
-                </picture>
-                <h3 class="heading">Image Collection</h3>
-                <p>I’m a big fan of Dribbble, Behance and a number of design based “Inspiration” platforms. I wanted to design an application that allowed me to easily moodboard, sort, tag and filter my image libraries.  <i>Good artists copy, great artists steal.</i>   - Pablo Picasso</p>
-              </article></div>
-              
-          </section>
-          <section class="section section-about">
-            <header class="section-header">
-              <h2 id="about" class="heading">About me</h2>
-            </header>
-            <p>My work is primarily focused in the digital space – UX/UI, however I have a background in graphic design and I quite often encompass illustration, branding and print based design knowledge into my role. </p>
-            <p>I have a strong eye for detail and a deep desire to understand the problems at hand. I love the challenge of creating strategic solutions that result in meaningful user experiences.</p>
-            <p>Outside of work you can often find me keeping active playing sport, reading or exploring weird sub-genres of hip hop.</p>
-            <p>I’m currently based in Melbourne, Victoria but I am originally from Launceston, Tasmania (2 heads are better than 1).</p>
-            <p class="callout">
-              I’m always looking for exciting opportunities, so <a class="mailto">get in touch</a> &amp; lets create something awesome!
-            </p>
-          </section>
-        </main>
-        <footer class="site-footer">
-          <div class="social">
-            <a class="social-link" href="mailto:mac@mackenzienason.design" aria-label="Email me"><img class="icon" src="icons/mail-filled.svg" aria-hidden="true"></a>
-            <a class="social-link" href="https://twitter.com/MackenzieNason" aria-label="View my Twitter"><img class="icon" src="icons/twitter.svg" aria-hidden="true"></a>
-            <a class="social-link" href="https://dribbble.com/Macnason" aria-label="View my Dribbble"><img class="icon" src="icons/dribbble.svg" aria-hidden="true"></a>
+
+              <div class="card"><a href="design-system.html">
+                <article>
+                  <picture>
+                    <img src="images/ds-thumbnail.png" class="card-img" alt="Design System Thumbnail">
+                  </picture>
+                  <h3 class="title"><a href="design-system.html">Design System</a></h3>
+                </article></a>
+              </div>
+
+              <div class="card"><a href="nav-redesign.html" alt="Menu Redesign Thumbnail">
+                <article>
+                  <picture>
+                    <img src="images/menu-thumbnail.png" class="card-img">
+                  </picture>
+                  <h3 class="title"><a href="nav-redesign.html">Navigation Redesign</a></h3>
+                </article></a>
+              </div>
+        </div>
+
+        </section>
+        <!-- /Work -->
+
+        <section id="about" class="section-about">
+          <div class="about-container">
+            <div class="about-content">
+              <h2>About me</h2>
+              <p>I have a deep desire to understand the problem space, a love for human centred design methods and a passion for designing clean, purposeful and appealing interfaces.<br><br>
+                I'm currently focusing my spare time on leveling up my coding skills, learning prototyping tools and technologies and keeping active by playing sports.<br><br>
+                I have a background of Graphic Design and often encompass my knowledge of branding, print layout and general design principles into my work. I’m located in Melbourne but I am originally from Launceston, Tasmania.</p>
+              </p>
+            </div>
+            <div class="about-fav container">
+              <h2 class="fav-heading">What you really want to know...</h2>
+               <div class="about-item">
+                 <h3 class="fav-label">Favourite Movie</h3>
+                 <p class="fav-item">🥊 Rocky IV</p>
+               </div>
+               <div class="about-item">
+                 <h3 class="fav-label">Favourite Food</h3>
+                 <p class="fav-item">🍕 Pizza</p>
+               </div>
+               <div class="about-item">
+                 <h3 class="fav-label">Favourite Book</h3>
+                 <a href="https://gregmckeown.com/book/" target="_blank"><p class="fav-item" style="text-decoration: underline">📚 Essentialism</p></a>
+               </div>
+               <div class="about-item">
+                 <h3 class="fav-label">Favourite Music Genre</h3>
+                 <p class="fav-item">🎧 Hip Hop</p>
+               </div>
+        </section>
+
+        <section id="contact">
+          <div class="section-chat container">
+            <h1>Let's Chat.</h1>
+            <p>Currently available to exciting opportunities. <a class="" target="_blank" href="mailto:mailto:mac@mackenzienason.design" aria-label="Drop me an email" aria-hidden="true">Drop me an email</a> or <a class="" target="_blank" href="https://www.linkedin.com/in/mackenzie-nason-a77910a1/" aria-label="connect with me" aria-hidden="true">connect with me</p>
           </div>
-          <div class="legal">
-            <small class="copyright">&copy; Mackenzie Nason 2018</small>
-          </div>
-        </footer>
-      </div>
-    </div>
-    
+        </section>
+
+      </main>
+
+      <footer>
+
+      </footer>
+
   </body>
 
 </html>
